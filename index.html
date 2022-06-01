@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inflation Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container-overlay">
+    <h1 style="text-align: center">Inflation Calculator</h1>
+    <div class="container">
+        <h3>Rata na inflacija <input type="number" min="0.1" id="inflationRate"> %</h3>
+        <h3>Vnesi pari: <input type="number" min="1" id="money"> i godini:
+            <input type="number" min="1" id="years"></h3>
+        <button onclick="inflationCalculator()" id="calculate">Calculate</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
